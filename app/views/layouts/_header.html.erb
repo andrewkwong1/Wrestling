@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Lions Wrestling  <%= image_tag "Lions.jpg", :class => 'logo'%></a>
+    </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Coaches", coaches_path %></li> 
+        <li><%= link_to "Membership", membership_path %></li> 
+        <li><%= link_to "Schedule", schedule_path %></li>
+        <li><%= link_to "Technique", technique_path %></li> 
+        <li><%= link_to "Contact Us", contact_path %>
+      </ul>
+  </div>
+ 
+</nav>

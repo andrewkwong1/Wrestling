@@ -1,4 +1,11 @@
 Wrestling::Application.routes.draw do
+  root "pages#home"
+  get "contact" => "pages#contactinfo"
+  get "membership" => "pages#member"
+  get "schedule" => "pages#schedule"
+  get "technique" => "pages#technique"
+  get "coaches" => "pages#coaches"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
